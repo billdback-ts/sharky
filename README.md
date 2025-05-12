@@ -1,2 +1,2 @@
-# sharky
-Shark Theme
+# Sharky Analytics
+Example embedding ThoughtSpot Spotter app.
