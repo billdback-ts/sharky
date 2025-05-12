@@ -1,93 +1,93 @@
 :root {
-  --ts-var-root-background: #06283D; /* Deep ocean */
-  --ts-var-root-color: #F1F6F9; /* Light foam text */
+  --ts-var-root-background: #F0FAFF; /* Light ocean mist */
+  --ts-var-root-color: #06283D; /* Deep sea text */
   --ts-var-root-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --ts-var-root-text-transform: none;
-  --ts-var-application-color: #47B5FF; /* Sea sparkle */
+  --ts-var-application-color: #00A6FB; /* Shark fin blue */
 
   /* Top navigation panel */
-  --ts-var-nav-color: #F1F6F9;
-  --ts-var-nav-background: #1363DF; /* Deep sea blue */
+  --ts-var-nav-color: #06283D;
+  --ts-var-nav-background: #DFF6FF;
 
   /* Buttons */
   --ts-var-button-border-radius: 6px;
   --ts-var-button--icon-border-radius: 6px;
 
-  --ts-var-button--primary-color: #F1F6F9;
-  --ts-var-button--primary-background: #1C5D99;
-  --ts-var-button--primary--hover-background: #144272;
+  --ts-var-button--primary-color: #ffffff;
+  --ts-var-button--primary-background: #00A6FB;
+  --ts-var-button--primary--hover-background: #62CDFF;
   --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
 
-  --ts-var-button--secondary-color: #F1F6F9;
-  --ts-var-button--secondary-background: #205295;
-  --ts-var-button--secondary--hover-background: #1A374D;
+  --ts-var-button--secondary-color: #06283D;
+  --ts-var-button--secondary-background: #CDE8F9;
+  --ts-var-button--secondary--hover-background: #B5D8F2;
   --ts-var-button--secondary--font-family: var(--ts-var-root-font-family);
 
-  --ts-var-button--tertiary-color: #F1F6F9;
-  --ts-var-button--tertiary-background: #0F3460;
-  --ts-var-button--tertiary--hover-background: #1A4D7A;
+  --ts-var-button--tertiary-color: #06283D;
+  --ts-var-button--tertiary-background: #E8F6FF;
+  --ts-var-button--tertiary--hover-background: #D4EDF9;
 
   /* Menu components */
   --ts-var-menu-color: var(--ts-var-root-color);
-  --ts-var-menu-background: #0E2954;
-  --ts-var-menu--hover-background: #1C5D99;
+  --ts-var-menu-background: #F2FBFF;
+  --ts-var-menu--hover-background: #CDE8F9;
   --ts-var-menu-font-family: var(--ts-var-root-font-family);
   --ts-var-menu-text-transform: none;
 
   /* Dialogs and modals */
-  --ts-var-dialog-body-background: #06283D;
-  --ts-var-dialog-body-color: #F1F6F9;
-  --ts-var-dialog-header-background: #144272;
-  --ts-var-dialog-header-color: #F1F6F9;
-  --ts-var-dialog-footer-background: #06283D;
+  --ts-var-dialog-body-background: #ffffff;
+  --ts-var-dialog-body-color: var(--ts-var-root-color);
+  --ts-var-dialog-header-background: #D4EDF9;
+  --ts-var-dialog-header-color: var(--ts-var-root-color);
+  --ts-var-dialog-footer-background: #ffffff;
 
   /* Visualizations and Answers */
-  --ts-var-viz-title-color: #47B5FF;
+  --ts-var-viz-title-color: #0081C9;
   --ts-var-viz-title-font-family: var(--ts-var-root-font-family);
-  --ts-var-viz-title-text-transform: uppercase;
+  --ts-var-viz-title-text-transform: capitalize;
 
-  --ts-var-viz-description-color: #9BBEC8;
+  --ts-var-viz-description-color: #15616D;
   --ts-var-viz-description-font-family: var(--ts-var-root-font-family);
   --ts-var-viz-description-text-transform: none;
 
   --ts-var-viz-border-radius: 10px;
-  --ts-var-viz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  --ts-var-viz-background: #1B2A41;
-  --ts-var-viz-legend-hover-background: #1C5D99;
+  --ts-var-viz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  --ts-var-viz-background: #ffffff;
+  --ts-var-viz-legend-hover-background: #CDE8F9;
 
   /* Chips (filters) */
-  --ts-var-chip-background: #3A6BA5;
-  --ts-var-chip-color: #F1F6F9;
-  --ts-var-chip--hover-background: #1A4D7A;
-  --ts-var-chip--hover-color: #F1F6F9;
-  --ts-var-chip--active-background: #144272;
-  --ts-var-chip--active-color: #F1F6F9;
+  --ts-var-chip-background: #CDE8F9;
+  --ts-var-chip-color: #06283D;
+  --ts-var-chip--hover-background: #A0D8EF;
+  --ts-var-chip--hover-color: #06283D;
+  --ts-var-chip--active-background: #62CDFF;
+  --ts-var-chip--active-color: #ffffff;
   --ts-var-chip-border-radius: 20px;
 
   /* Axis titles and labels */
-  --ts-var-axis-title-color: #F1F6F9;
+  --ts-var-axis-title-color: #06283D;
   --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
-  --ts-var-axis-data-label-color: #9BBEC8;
+  --ts-var-axis-data-label-color: #15616D;
   --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
 
   /* Search bar */
-  --ts-var-search-bar-background: #1B2A41;
-  --ts-var-search-bar-text-font-color: #F1F6F9;
+  --ts-var-search-bar-background: #ffffff;
+  --ts-var-search-bar-text-font-color: #06283D;
   --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
-  --ts-var-search-data-button-font-color: #F1F6F9;
-  --ts-var-search-data-button-background: #144272;
-  --ts-var-search-auto-complete-background: #0F3460;
-  --ts-var-search-auto-complete-font-color: #F1F6F9;
-  --ts-var-search-bar-auto-complete-hover-background: #1C5D99;
+  --ts-var-search-data-button-font-color: #ffffff;
+  --ts-var-search-data-button-background: #00A6FB;
+  --ts-var-search-auto-complete-background: #F2FBFF;
+  --ts-var-search-auto-complete-font-color: #06283D;
+  --ts-var-search-bar-auto-complete-hover-background: #CDE8F9;
 
   /* Liveboard and list hover */
-  --ts-var-liveboard-edit-bar-background: #0F3460;
-  --ts-var-list-hover-background: #1A374D;
-  --ts-var-list-selected-background: #144272;
+  --ts-var-liveboard-edit-bar-background: #DFF6FF;
+  --ts-var-list-hover-background: #E8F6FF;
+  --ts-var-list-selected-background: #CDE8F9;
 
   /* Homepage cards */
-  --ts-var-home-card-color: #F1F6F9;
-  --ts-var-home-favorite-suggestion-card-background: #1B2A41;
-  --ts-var-home-favorite-suggestion-card-text-color: #9BBEC8;
-  --ts-var-home-favorite-suggestion-card-icon-color: #47B5FF;
+  --ts-var-home-card-color: #06283D;
+  --ts-var-home-favorite-suggestion-card-background: #F0FAFF;
+  --ts-var-home-favorite-suggestion-card-text-color: #15616D;
+  --ts-var-home-favorite-suggestion-card-icon-color: #00A6FB;
 }

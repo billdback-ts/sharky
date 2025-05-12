@@ -43,6 +43,16 @@ function askSharky() {
 init({
   thoughtSpotHost: tsUrl,
   authType: AuthType.None,
+    customizations: {
+    style: {
+      customCSSUrl: "https://cdn.jsdelivr.net/gh/billdback-ts/sharky/ts.css", // location of your style sheet
+      // To apply overrides for your style sheet in this init, provide variable values below, eg
+      customCSS: {
+        variables: {
+        },
+      },
+    },
+  },
 });
 
 // Run askSharky on page load
