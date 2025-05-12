@@ -1,0 +1,54 @@
+import {
+  init,
+  AuthType,
+  ConversationEmbed,
+} from "https://unpkg.com/@thoughtspot/visual-embed-sdk/dist/tsembed.es.js";
+
+// Declare the ThoughtSpot URL to connect to.
+const tsUrl = "https://embed-1-do-not-delete.thoughtspotstaging.cloud";
+
+// Render the nav bar and initial content
+const app = document.getElementById("app");
+
+document.body.insertAdjacentHTML(
+  "afterbegin",
+  `
+  <nav class="navbar">
+    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link">Dashboards</a>
+    <a href="#" class="nav-link" id="ask-sharky-link">Ask Sharky</a>
+    <div class="nav-profile">
+      <a href="#" class="nav-link">Profile</a>
+      <img src="https://img.icons8.com/emoji/48/shark-emoji.png" alt="Sharky" class="shark-img" />
+    </div>
+  </nav>
+`
+);
+
+// Ask Sharky function
+function askSharky() {
+  // app.innerHTML = `<p>Add embedding code here.</p>`;
+  const embed = new ConversationEmbed("#app", {
+    worksheetId: "072a23ed-0f40-4d31-84bb-f9cd6acf6c49",
+    searchOptions: {
+      searchQuery: "what are my top selling items by region",
+    },
+    disableSourceSelection: true,
+  });
+
+  embed.render();
+}
+
+// Initialize the embed
+init({
+  thoughtSpotHost: tsUrl,
+  authType: AuthType.None,
+});
+
+// Run askSharky on page load
+askSharky();
+
+document.getElementById("ask-sharky-link").addEventListener("click", (e) => {
+  e.preventDefault();
+  askSharky();
+});

@@ -1,0 +1,93 @@
+:root {
+  --ts-var-root-background: #06283D; /* Deep ocean */
+  --ts-var-root-color: #F1F6F9; /* Light foam text */
+  --ts-var-root-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --ts-var-root-text-transform: none;
+  --ts-var-application-color: #47B5FF; /* Sea sparkle */
+
+  /* Top navigation panel */
+  --ts-var-nav-color: #F1F6F9;
+  --ts-var-nav-background: #1363DF; /* Deep sea blue */
+
+  /* Buttons */
+  --ts-var-button-border-radius: 6px;
+  --ts-var-button--icon-border-radius: 6px;
+
+  --ts-var-button--primary-color: #F1F6F9;
+  --ts-var-button--primary-background: #1C5D99;
+  --ts-var-button--primary--hover-background: #144272;
+  --ts-var-button--primary--font-family: var(--ts-var-root-font-family);
+
+  --ts-var-button--secondary-color: #F1F6F9;
+  --ts-var-button--secondary-background: #205295;
+  --ts-var-button--secondary--hover-background: #1A374D;
+  --ts-var-button--secondary--font-family: var(--ts-var-root-font-family);
+
+  --ts-var-button--tertiary-color: #F1F6F9;
+  --ts-var-button--tertiary-background: #0F3460;
+  --ts-var-button--tertiary--hover-background: #1A4D7A;
+
+  /* Menu components */
+  --ts-var-menu-color: var(--ts-var-root-color);
+  --ts-var-menu-background: #0E2954;
+  --ts-var-menu--hover-background: #1C5D99;
+  --ts-var-menu-font-family: var(--ts-var-root-font-family);
+  --ts-var-menu-text-transform: none;
+
+  /* Dialogs and modals */
+  --ts-var-dialog-body-background: #06283D;
+  --ts-var-dialog-body-color: #F1F6F9;
+  --ts-var-dialog-header-background: #144272;
+  --ts-var-dialog-header-color: #F1F6F9;
+  --ts-var-dialog-footer-background: #06283D;
+
+  /* Visualizations and Answers */
+  --ts-var-viz-title-color: #47B5FF;
+  --ts-var-viz-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-title-text-transform: uppercase;
+
+  --ts-var-viz-description-color: #9BBEC8;
+  --ts-var-viz-description-font-family: var(--ts-var-root-font-family);
+  --ts-var-viz-description-text-transform: none;
+
+  --ts-var-viz-border-radius: 10px;
+  --ts-var-viz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --ts-var-viz-background: #1B2A41;
+  --ts-var-viz-legend-hover-background: #1C5D99;
+
+  /* Chips (filters) */
+  --ts-var-chip-background: #3A6BA5;
+  --ts-var-chip-color: #F1F6F9;
+  --ts-var-chip--hover-background: #1A4D7A;
+  --ts-var-chip--hover-color: #F1F6F9;
+  --ts-var-chip--active-background: #144272;
+  --ts-var-chip--active-color: #F1F6F9;
+  --ts-var-chip-border-radius: 20px;
+
+  /* Axis titles and labels */
+  --ts-var-axis-title-color: #F1F6F9;
+  --ts-var-axis-title-font-family: var(--ts-var-root-font-family);
+  --ts-var-axis-data-label-color: #9BBEC8;
+  --ts-var-axis-data-label-font-family: var(--ts-var-root-font-family);
+
+  /* Search bar */
+  --ts-var-search-bar-background: #1B2A41;
+  --ts-var-search-bar-text-font-color: #F1F6F9;
+  --ts-var-search-bar-text-font-family: var(--ts-var-root-font-family);
+  --ts-var-search-data-button-font-color: #F1F6F9;
+  --ts-var-search-data-button-background: #144272;
+  --ts-var-search-auto-complete-background: #0F3460;
+  --ts-var-search-auto-complete-font-color: #F1F6F9;
+  --ts-var-search-bar-auto-complete-hover-background: #1C5D99;
+
+  /* Liveboard and list hover */
+  --ts-var-liveboard-edit-bar-background: #0F3460;
+  --ts-var-list-hover-background: #1A374D;
+  --ts-var-list-selected-background: #144272;
+
+  /* Homepage cards */
+  --ts-var-home-card-color: #F1F6F9;
+  --ts-var-home-favorite-suggestion-card-background: #1B2A41;
+  --ts-var-home-favorite-suggestion-card-text-color: #9BBEC8;
+  --ts-var-home-favorite-suggestion-card-icon-color: #47B5FF;
+}

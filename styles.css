@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  width: 100vw;
+  height: 90vh;
+}
+
+/* Nav bar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #0077b6;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #90e0ef;
+}
+
+.nav-profile {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.shark-img {
+  width: 32px;
+  height: 32px;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  background: white;
+  padding: 2px;
+}
