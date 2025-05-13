@@ -10,21 +10,6 @@ const tsUrl = "https://embed-1-do-not-delete.thoughtspotstaging.cloud";
 // Render the nav bar and initial content
 const app = document.getElementById("app");
 
-document.body.insertAdjacentHTML(
-  "afterbegin",
-  `
-  <nav class="navbar">
-    <a href="#" class="nav-link">Home</a>
-    <a href="#" class="nav-link">Dashboards</a>
-    <a href="#" class="nav-link" id="ask-sharky-link">Ask Sharky</a>
-    <div class="nav-profile">
-      <a href="#" class="nav-link">Profile</a>
-      <img src="https://img.icons8.com/emoji/48/shark-emoji.png" alt="Sharky" class="shark-img" />
-    </div>
-  </nav>
-`
-);
-
 // Ask Sharky function
 function askSharky() {
   // app.innerHTML = `<p>Add embedding code here.</p>`;
@@ -43,15 +28,21 @@ function askSharky() {
 init({
   thoughtSpotHost: tsUrl,
   authType: AuthType.None,
-    customizations: {
+  customizations: {
     style: {
-      customCSSUrl: "https://cdn.jsdelivr.net/gh/billdback-ts/sharky/ts.css", // location of your style sheet
+      customCSSUrl: "https://cdn.jsdelivr.net/gh/billdback-ts/sharky/ts001.css", // location of your style sheet
       // To apply overrides for your style sheet in this init, provide variable values below, eg
       customCSS: {
         variables: {
         },
       },
     },
+    iconSpriteUrl: "https://cdn.jsdelivr.net/gh/billdback-ts/sharky/shark.svg",
+    content: {
+      strings: {
+        Spotter: "Sharky"
+      }
+    }
   },
 });
 
