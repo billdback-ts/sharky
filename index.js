@@ -37,7 +37,7 @@ init({
         },
       },
     },
-    iconSpriteUrl: "https://cdn.jsdelivr.net/gh/billdback-ts/sharky/shark001.svg",
+    iconSpriteUrl: "https://cdn.jsdelivr.net/gh/billdback-ts/sharky/shark002.svg",
     content: {
       strings: {
         Spotter: "Sharky"
