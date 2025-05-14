@@ -1,6 +1,7 @@
 // 1 - Import the functions and classes from the SDK.
 import {
   init,
+  Action,
   AuthType,
   ConversationEmbed,
 } from "https://unpkg.com/@thoughtspot/visual-embed-sdk/dist/tsembed.es.js";
