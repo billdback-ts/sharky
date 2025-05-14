@@ -6,7 +6,7 @@ import {
 } from "https://unpkg.com/@thoughtspot/visual-embed-sdk/dist/tsembed.es.js";
 
 // Declare the ThoughtSpot URL to connect to.
-const tsUrl = "https://embed-1-do-not-delete.thoughtspotstaging.cloud";
+const tsUrl = "https://https://gartner2025.thoughtspotstaging.cloud";
 
 // Render the nav bar and initial content
 const app = document.getElementById("app");

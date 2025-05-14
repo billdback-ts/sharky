@@ -5,7 +5,7 @@ import {
 } from "https://unpkg.com/@thoughtspot/visual-embed-sdk/dist/tsembed.es.js";
 
 // Declare the ThoughtSpot URL to connect to.
-const tsUrl = "https://embed-1-do-not-delete.thoughtspotstaging.cloud";
+const tsUrl = "https://https://gartner2025.thoughtspotstaging.cloud";
 
 // Render the nav bar and initial content
 const app = document.getElementById("app");
@@ -14,7 +14,7 @@ const app = document.getElementById("app");
 function askSharky() {
   // app.innerHTML = `<p>Add embedding code here.</p>`;
   const embed = new ConversationEmbed("#app", {
-    worksheetId: "072a23ed-0f40-4d31-84bb-f9cd6acf6c49",
+    worksheetId: "cd252e5c-b552-49a8-821d-3eadaa049cca",
     searchOptions: {
       searchQuery: "what are my top selling items by region",
     },
